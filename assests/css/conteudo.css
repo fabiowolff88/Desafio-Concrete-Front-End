@@ -1,0 +1,112 @@
+
+.conteudo {
+    display: flex;
+    margin-left: 28px;
+  
+  }
+  .usuario_card_avatar {
+    width: 280px;
+    height: 280px;
+    border-radius: 2px;
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.4);
+    margin-bottom: 12px;
+  }
+  
+  h1 {
+    font-family: Raleway-Light;
+    font-size: 35px;
+    font-weight: 300;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #000000;
+  }
+  
+  h2 {
+    width: 375.5px;
+    height: 40.8px;
+    font-family: Raleway;
+    font-size: 35px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #ac53f2;
+   
+  }
+  
+  h3 {
+    font-family: Raleway-Light;
+    font-size: 20px;
+    font-weight: 300;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #5c5c5c;
+  }
+  
+  #usuario_card_userlogin {
+    width: 280px;
+    height: 25px;
+    margin-top: 7px;
+  }
+  
+  .usuario_detalhes {
+    padding-top: 28px;
+    display: flex;
+    flex-flow: row wrap;
+    width: 280px;
+  }
+  
+  .usuario_detalhes img {
+    flex: 1 5%;
+    margin-bottom: 14px;
+  }
+  
+  .ususario_detalhes_userinformacoes {
+    flex: 2 85%;
+    margin-bottom: 14px;
+  }
+  
+  .usuario_detalhes_icons {
+    width: 24px;
+    height: 24px;
+    padding-right: 7px;
+     
+  }
+  
+  .repositorio {
+    margin-left: 72px;
+  }
+  
+  .repositorio_lista li {
+    margin-bottom: 30px;
+  
+  }
+  
+  .repositorio_lista_item_descricao {
+    color: #000000;
+    font-family: Raleway-Light;
+    font-size: 20px;
+    font-weight: 300;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+  }
+  
+  
+  
+  .repositorio_lista_item_nome {
+    font-family: Raleway;
+    font-size: 35px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #ac53f2;
+  }

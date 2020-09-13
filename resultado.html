@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Github Search</title>
+        <link href="./assests/css/normalize.css" rel="stylesheet"/>
+        <link href="./assests/css/reset.css" rel="stylesheet"/>
+        <link href="./assests/css/resultado.css" rel="stylesheet"/>
+    </head>  
+    <body>
+        <header class="cabecalho">
+            <form  class="formulario">
+                <label for="pesquisa" class ="formulario__titulo"><strong class="formulario__titulo--github">Github</strong>Search</label>
+                <div class="formulario__usuariobotao">
+                    <input type="search" id="userLogin" class="formulario__usuario">
+                    <button type="button" id="botao_Pesquisa" class="formulario__botao"><img src="./assests/img/search-icon.png" alt="Pesquisar"></button>
+                </div>
+            </form>
+        </header>
+        <main class="conteudo" id="conteudo">
+            <section class="usuario">
+                <header class="card">
+                    <img src="" class="card__avatar" id ="usuario-imagem" alt="Imagem do Avatar"/>
+                    <h1 id="usuario_card_username" ></h1>
+                    <h3 class="card__userlogin" id="usuario_card_userlogin"></h3>                 
+                </header>
+                <article class="detalhes">
+                    <img src="./assests/img/organization-icon.png" class="detalhes__icons" alt="Organização">
+                    <h3 class="detalhes__userinformacoes" id="organizacao"></h3>
+                    <img src="./assests/img/location-icon.png" class="detalhes__icons" alt="Localização">
+                    <h3 class="detalhes__userinformacoes" id="localizacao"></h3>
+                    <img src="./assests/img/star-icon.png" class="detalhes__icons" alt="Estrelas">
+                    <h3 class="detalhes__userinformacoes" id="estrelas"></h3>
+                    <img src="./assests/img/repositorie-icon.png" class="detalhes__icons" alt="Repositorios">
+                    <h3 class="detalhes__userinformacoes" id="qtdrepositorio"></h3>
+                    <img src="./assests/img/followers-icon.png" class="detalhes__icons" alt="Seguidores">
+                    <h3 class="detalhes__userinformacoes" id="seguidores"></h3>
+                </article>
+            </section>
+            <aside class="repositorio">
+                <ul class="repositoriolista" id="repositorio_lista1"/>
+            </aside>
+        </main>
+        <script src="./assests/js/initresult.js"></script>
+        <script src="./assests/js/usuario.js"></script>
+        <script src="./assests/js/repositorio.js"></script>
+    </body>
+</html>

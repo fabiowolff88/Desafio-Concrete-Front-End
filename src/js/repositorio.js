@@ -71,7 +71,8 @@ const getRepos = (e) => {
         return renderRepos();
       })
       .catch((err) => {
-         window.location.href = "../../notfound.html"
+         window.location.href = "./../src/notfound.html"
+         
       });
   };
 

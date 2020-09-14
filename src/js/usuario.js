@@ -26,7 +26,7 @@ const getUser = (e) => {
         document.getElementById("seguidores").innerText = responseData.followers || 0;
       })
       .catch((err) => {
-         window.location.href = "../../notfound.html"
+        window.location.href = "./../src/notfound.html"
       });
   };
   

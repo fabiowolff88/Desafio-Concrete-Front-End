@@ -27,8 +27,7 @@ Repositórios de um usuário: https://developer.github.com/v4/object/repositoryc
 Layout
 
 layout: https://zpl.io/VxYQp7g
-usuário: desafio_concrete
-senha: challengeaccepted
+
 Navegação
 
 ●	Ao buscar um usuário pelo login do github, direcionar para página de resultado de busca.
